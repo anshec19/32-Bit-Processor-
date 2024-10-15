@@ -1,18 +1,18 @@
 # 32-Bit-Processor-
 Designed a 32-bit RISC processor using Verilog HDL with a 5-stage pipeline (IF, ID, EX, MEM, WB). Supports MIPS32 instructions, with hazard detection and forwarding. Simulated in Xilinx Vivado and synthesized on ZedBoard FPGA for real-time validation.
 ## Table of contents  
-▫️ [MIPS32](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-mips32)  
-▫️ [Addressing Modes](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-addressing-modes)  
-▫️ [Instructions considered](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-instructions-considered)  
-▫️ [Instruction Encoding](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-instruction-encoding)  
-▫️ [Stages of Execution](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-stages-of-execution)  
-▫️ [Non Pipelined DataPath](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-non-pipelined-datapath)  
-▫️ [Pipelined DataPath](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-pipelined-datapath)  
-▫️ [Verilog Design Code](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog/blob/main/mips32_design.v)  
-▫️ [Example Program Testbench Code](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog/blob/main/testbench.v)  
-▫️ [EDAplayground Link](https://edaplayground.com/x/t8Vx)  
-▫️ [Known issues and problems](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-known-problems-and-issues)  
-▫️ [References](https://github.com/arpit306/5-Stage-Pipelined-MIPS32-RISC-Processor-Design-on-Verilog#%EF%B8%8F-references)  
+▫️ [MIPS32](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-mips32)  
+▫️ [Addressing Modes](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-addressing-modes)  
+▫️ [Instructions considered](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-instructions-considered)  
+▫️ [Instruction Encoding](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-instruction-encoding)  
+▫️ [Stages of Execution](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-stages-of-execution)  
+▫️ [Non Pipelined DataPath](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-non-pipelined-datapath)  
+▫️ [Pipelined DataPath](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-pipelined-datapath)  
+▫️ [Verilog Design Code](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-verilog-design-code)  
+▫️ [Example Program Testbench Code](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-example-program-testbench-code)  
+▫️ [EDAplayground Link](https://edaplayground.com/x/9LLd)  
+▫️ [Known issues and problems](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-known-problems-and-issues)  
+▫️ [References](https://github.com/anshec19/32-Bit-Processor-/blob/main/README.md#%EF%B8%8F-references)  
 ## ▫️ MIPS32  
 - 32 x 32 bit GPRs [R0 to R31]  
 - R0 hardwired to logic0  
