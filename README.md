@@ -367,7 +367,7 @@ Testbench Code :
 endmodule
   ```  
 Waveform :  
-![waveform](https://github.com/user-attachments/assets/4f03ca5f-011b-4e04-971b-16aec46c3681))  
+![waveform](https://github.com/user-attachments/assets/4f03ca5f-011b-4e04-971b-16aec46c3681)
 
 Console output :  
 ``` R0 -  0
