@@ -378,7 +378,7 @@ R4 - 30
 R5 - 55  
 ```  
 ## ▫️ EDAplayground Link  
-[https://edaplayground.com/x/t8Vx](https://edaplayground.com/x/t8Vx )  
+[https://edaplayground.com/x/t8Vx](https://edaplayground.com/x/9LLd)  
 ## ▫️ Known problems and issues  
 Following pipelining hazards are present in the given design :  
 - Structural Hazards due to shared hardware.  
